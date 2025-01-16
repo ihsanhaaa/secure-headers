@@ -1,17 +1,14 @@
 {
-    "name": "vendor/secure-headers",
-    "description": "Laravel middleware for security headers",
+    "name": "ihsanhaaa/secure-headers",
+    "description": "A Laravel package for secure headers middleware",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Vendor\\SecureHeaders\\": "src/"
+            "Ihsanhaaa\\SecureHeaders\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Vendor\\SecureHeaders\\SecureHeadersServiceProvider"
-            ]
-        }
+    "require": {
+        "php": ">=8.0"
     }
 }
