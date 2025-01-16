@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\SecureHeaders\Middleware;
+namespace Ihsanhaaa\SecureHeaders\Middleware;
 
 use Closure;
 
