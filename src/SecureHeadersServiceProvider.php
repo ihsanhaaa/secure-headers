@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\SecureHeaders;
+namespace Ihsanhaaa\SecureHeaders;
 
 use Illuminate\Support\ServiceProvider;
 
