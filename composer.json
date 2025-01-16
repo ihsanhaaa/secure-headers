@@ -1,0 +1,17 @@
+{
+    "name": "vendor/secure-headers",
+    "description": "Laravel middleware for security headers",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\SecureHeaders\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\SecureHeaders\\SecureHeadersServiceProvider"
+            ]
+        }
+    }
+}
